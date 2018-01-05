@@ -15,6 +15,10 @@
 		0F1AF4871FFF629600A5E73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1AF4861FFF629600A5E73C /* main.m */; };
 		0F1AF4911FFF629600A5E73C /* Quarz2DTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1AF4901FFF629600A5E73C /* Quarz2DTest2Tests.m */; };
 		0F1AF49C1FFF629600A5E73C /* Quarz2DTest2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1AF49B1FFF629600A5E73C /* Quarz2DTest2UITests.m */; };
+		0F1AF4AD1FFF62A500A5E73C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F1AF4AA1FFF62A500A5E73C /* 1.jpg */; };
+		0F1AF4AE1FFF62A500A5E73C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F1AF4AB1FFF62A500A5E73C /* 2.jpg */; };
+		0F1AF4AF1FFF62A500A5E73C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F1AF4AC1FFF62A500A5E73C /* 3.jpg */; };
+		0F1AF4B21FFF62AF00A5E73C /* cyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1AF4B01FFF62AF00A5E73C /* cyImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		0F1AF4971FFF629600A5E73C /* Quarz2DTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quarz2DTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1AF49B1FFF629600A5E73C /* Quarz2DTest2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quarz2DTest2UITests.m; sourceTree = "<group>"; };
 		0F1AF49D1FFF629600A5E73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1AF4AA1FFF62A500A5E73C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0F1AF4AB1FFF62A500A5E73C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		0F1AF4AC1FFF62A500A5E73C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0F1AF4B01FFF62AF00A5E73C /* cyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cyImageView.m; sourceTree = "<group>"; };
+		0F1AF4B11FFF62AF00A5E73C /* cyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cyImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		0F1AF46B1FFF629600A5E73C = {
 			isa = PBXGroup;
 			children = (
+				0F1AF4A91FFF62A500A5E73C /* 产品图片 */,
 				0F1AF4761FFF629600A5E73C /* Quarz2DTest2 */,
 				0F1AF48F1FFF629600A5E73C /* Quarz2DTest2Tests */,
 				0F1AF49A1FFF629600A5E73C /* Quarz2DTest2UITests */,
@@ -105,6 +115,8 @@
 				0F1AF4781FFF629600A5E73C /* AppDelegate.m */,
 				0F1AF47A1FFF629600A5E73C /* ViewController.h */,
 				0F1AF47B1FFF629600A5E73C /* ViewController.m */,
+				0F1AF4B11FFF62AF00A5E73C /* cyImageView.h */,
+				0F1AF4B01FFF62AF00A5E73C /* cyImageView.m */,
 				0F1AF47D1FFF629600A5E73C /* Main.storyboard */,
 				0F1AF4801FFF629600A5E73C /* Assets.xcassets */,
 				0F1AF4821FFF629600A5E73C /* LaunchScreen.storyboard */,
@@ -130,6 +142,16 @@
 				0F1AF49D1FFF629600A5E73C /* Info.plist */,
 			);
 			path = Quarz2DTest2UITests;
+			sourceTree = "<group>";
+		};
+		0F1AF4A91FFF62A500A5E73C /* 产品图片 */ = {
+			isa = PBXGroup;
+			children = (
+				0F1AF4AA1FFF62A500A5E73C /* 1.jpg */,
+				0F1AF4AB1FFF62A500A5E73C /* 2.jpg */,
+				0F1AF4AC1FFF62A500A5E73C /* 3.jpg */,
+			);
+			path = "产品图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1AF4841FFF629600A5E73C /* LaunchScreen.storyboard in Resources */,
+				0F1AF4AD1FFF62A500A5E73C /* 1.jpg in Resources */,
+				0F1AF4AE1FFF62A500A5E73C /* 2.jpg in Resources */,
+				0F1AF4AF1FFF62A500A5E73C /* 3.jpg in Resources */,
 				0F1AF4811FFF629600A5E73C /* Assets.xcassets in Resources */,
 				0F1AF47F1FFF629600A5E73C /* Main.storyboard in Resources */,
 			);
@@ -267,6 +292,7 @@
 			files = (
 				0F1AF47C1FFF629600A5E73C /* ViewController.m in Sources */,
 				0F1AF4871FFF629600A5E73C /* main.m in Sources */,
+				0F1AF4B21FFF62AF00A5E73C /* cyImageView.m in Sources */,
 				0F1AF4791FFF629600A5E73C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
